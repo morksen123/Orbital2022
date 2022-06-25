@@ -45,6 +45,7 @@ const HostActivityForm = ({ onPressHandler }) => {
     }
 
     function HostActivityHandler() {
+        console.log(enteredTitle);
         console.log(enteredTime);
         console.log(enteredDetails);
         console.log(pickedLocation);
